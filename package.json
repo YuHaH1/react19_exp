@@ -9,8 +9,16 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^20.12.10",
+    "@vitejs/plugin-react": "^4.2.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@types/react": "npm:types-react@beta",
+    "@types/react-dom": "npm:types-react-dom@beta",
+    "react": "^19.0.0-beta-b498834eab-20240506",
+    "react-dom": "^19.0.0-beta-b498834eab-20240506"
   },
   "overrides": {
     "@types/react": "npm:types-react@beta",
